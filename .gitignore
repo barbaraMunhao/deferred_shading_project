@@ -1,0 +1,5 @@
+common/build/vs2019/x64/*
+cgtest/build/vs2019/x64/*
+**/.vs
+*.pdb
+*.ilk

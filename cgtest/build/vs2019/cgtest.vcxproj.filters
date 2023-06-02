@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\Assets.cpp" />
+    <ClCompile Include="..\..\DeferredShadingViewer.cpp" />
+    <ClCompile Include="..\..\DSRenderer.cpp" />
+    <ClCompile Include="..\..\GBuffer.cpp" />
+    <ClCompile Include="..\..\GLFramebuffer.cpp" />
+    <ClCompile Include="..\..\KTXHelper.cpp" />
+    <ClCompile Include="..\..\KTXViewer.cpp" />
+    <ClCompile Include="..\..\Line2.cpp" />
+    <ClCompile Include="..\..\Main.cpp" />
+    <ClCompile Include="..\..\Transform.cpp" />
+    <ClCompile Include="..\..\SViewer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Assets.h" />
+    <ClInclude Include="..\..\DeferredShadingViewer.h" />
+    <ClInclude Include="..\..\DSRenderer.h" />
+    <ClInclude Include="..\..\GBuffer.h" />
+    <ClInclude Include="..\..\GLFramebuffer.h" />
+    <ClInclude Include="..\..\KTXHelper.h" />
+    <ClInclude Include="..\..\KTXViewer.h" />
+    <ClInclude Include="..\..\Line2.h" />
+    <ClInclude Include="..\..\Matrix.h" />
+    <ClInclude Include="..\..\RigidBody2.h" />
+    <ClInclude Include="..\..\Shape2.h" />
+    <ClInclude Include="..\..\Transform2.h" />
+    <ClInclude Include="..\..\Utils.h" />
+    <ClInclude Include="..\..\Object.h" />
+    <ClInclude Include="..\..\Transform.h" />
+    <ClInclude Include="..\..\SViewer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>{622e8e95-d09a-4e99-bbe5-37db5144b2c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\Shaders">
+      <UniqueIdentifier>{9272fb48-75e5-4a9b-bb31-67af3cce60cf}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\assets\shaders\final.fs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="..\..\assets\shaders\g.fs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="..\..\assets\shaders\g.vs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="..\..\assets\shaders\s.fs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="..\..\assets\shaders\s.vs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="..\..\assets\shaders\ds.fs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+    <None Include="..\..\assets\shaders\ds.vs">
+      <Filter>Assets\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
